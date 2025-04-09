@@ -1,7 +1,7 @@
 # 📦 Amazon Product Lookup API
 
 This is a simple Flask-based API that fetches product details from Amazon using the [Amazon Product Advertising API (PAAPI)](https://github.com/sergioteula/python-amazon-paapi).  
-You can retrieve product information by providing an **ASIN (Amazon Standard Identification Number)** via the `/<asin>` endpoint.
+You can retrieve product information by providing an **ASIN (Amazon Standard Identification Number)** via the `api/v1/product/<asin>` endpoint.
 
 ---
 
@@ -24,7 +24,7 @@ You can retrieve product information by providing an **ASIN (Amazon Standard Ide
 
 Clone this repository:
 ```
-git clone https://github.com/yourusername/amazon-product-lookup-api.git
+git clone https://github.com/Anuragd275/amazon-product-lookup-api.git
 ```
 
 Navigate to the cloned directory:
